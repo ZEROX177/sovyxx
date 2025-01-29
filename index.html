@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>febrian</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #0f0f0f;
+            color: #fff;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .header-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #ff69b4;
+            margin-right: 20px;
+        }
+
+        .header-text {
+            color: #ff69b4;
+            font-size: 2.2em;
+            text-shadow: 0 0 10px rgba(255,105,180,0.3);
+        }
+
+        .japanese-text {
+            color: #888;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .category-box {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        .category-item {
+            margin: 15px 0;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .category-item::before {
+            content: '✦';
+            color: #ff69b4;
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+
+        .sub-item {
+            color: #88ff88;
+            margin: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .sub-item::before {
+            content: '•';
+            color: #ff69b4;
+            position: absolute;
+            left: 10px;
+        }
+
+        .download-section {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #ff69b4;
+        }
+
+        .download-btn {
+            display: flex;
+            align-items: center;
+            background: #2e2e2e;
+            color: #fff;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .download-btn:hover {
+            transform: translateX(10px);
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+        }
+
+        .download-icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 15px;
+        }
+
+        .username-box {
+            display: flex;
+            align-items: center;
+            margin: 25px 0;
+            padding: 15px;
+            background: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .badge {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-section">
+        <img src="https://files.catbox.moe/jqscel.jpg" class="profile-img" alt="Profile">
+        <h1 class="header-text">FEBRIAN</h1>
+    </div>
+
+    <div class="japanese-text">こんにちは、私の名前はフェブリアンです</div>
+
+    <div class="category-box">
+        <div class="category-item">my skill
+            <div class="sub-item">javascript</div>
+            <div class="sub-item">html</div>
+        </div>
+
+        <div class="category-item">Gaming
+            <div class="sub-item">mobile legend</div>
+            <div class="sub-item">most wanted</div>
+        </div>
+    </div>
+
+    <div class="username-box">
+        <img src="https://files.catbox.moe/jqscel.jpg?text=★" class="badge" alt="Badge">
+        <div class="category-item">febry</div>
+    </div>
+
+    <div class="download-section">
+        <!-- saluran utama-->
+        <a href="https://whatsapp.com/channel/0029VafTiUnEKyZPidyaVt3y" 
+           class="download-btn"
+           target="_blank">
+            <img src="https://files.catbox.moe/ehxona.png" class="download-icon" alt="WhatsApp">
+            my channel whatsapp
+        </a>
+
+        <!-- Link Instagram Personal -->
+        <a href="https://www.instagram.com/zerox652k" 
+           class="download-btn"
+           target="_blank">
+            <img src="https://files.catbox.moe/jdrtqs.png" class="download-icon" alt="Instagram">
+            my Instagram account
+        </a>
+        
+        <a href="https://www.tiktok.com/@febryan_mn" 
+           class="download-btn"
+           target="_blank">
+            <img src="https://files.catbox.moe/qkp4gy.png" class="download-icon" alt="tiktok">
+            my tiktok account
+        </a>
+        <a href="https://t.me/Febry_vl" 
+           class="download-btn"
+           target="_blank">
+            <img src="https://files.catbox.moe/r52ea4.png" class="download-icon" alt="telegram">
+            my telegram account
+        </a>
+
+        <!-- Download File 1 -->
+<!--        <a href="https://drive.google.com/uc?export=download&id=FILE_ID_GOOGLE_DRIVE" 
+           class="download-btn"
+           download="Osaragi_V1.0.zip">
+            <img src="download-icon.png" class="download-icon" alt="Download">
+            Download Osaragi V1.0
+            <span class="download-hint">Klik ini untuk download...</span>
+        </a> -->
+
+        <!-- Download File 2 -->
+<!--        <a href="https://your-website.com/files/Osaragi_V2.0.exe" 
+           class="download-btn"
+           download>
+            <img src="download-icon.png" class="download-icon" alt="Download">
+            Download Osaragi V2.0
+            <span class="download-hint">Klik ini untuk download...</span>
+        </a> -->
+    </div>
+</body>
+</html>
