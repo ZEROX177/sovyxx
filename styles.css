@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: "Nunito Sans", serif;
 }
 
 body {
@@ -55,8 +55,9 @@ body::after {
     font-size: 1.1em;
     margin: 15px 0;
     text-align: center;
+    font-family: "Noto Sans JP", serif;
+    font-style: normal;
 }
-
 .container {
     max-width: 400px;
     margin: 20px auto;
